@@ -145,7 +145,7 @@ class Botstagram:
                     to = self.driver.find_element(By.XPATH, "//div[@class='             qF0y9          Igw0E     IwRSH      eGOV_          ui_ht                                                                          i0EQd                                   ']/div[@class='_7UhW9   xLCgt        qyrsm KV-D4              fDxYl     ']").text
                     self.send_dm(to, text)
                     back_button = self.driver.find_element(By.XPATH, "//*[name()='svg' and @aria-label='Home' and @class='_8-yf5 ']")
-                    back_button.click()
+                    back_button.click() 
                 except:
                     print("Not found...")
                 # placeholder
