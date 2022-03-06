@@ -1,3 +1,11 @@
+'''
+*************************************************************************** DISCLAIMER ****************************************************************************
+
+CODE IS STILL BEING WORKED ON, ISN'T READY FOR DISTRIBUTION/USE AND THEREFORE ISN'T OPTIMIZED
+
+You can test the send_dm, auto_reply and cycle_stories functions, any feedback is appreciated.
+
+'''
 import datetime
 import os
 import apscheduler
@@ -11,14 +19,6 @@ from selenium.webdriver.common.by import By
 from apscheduler.schedulers.background import BackgroundScheduler
 from selenium.webdriver.support import expected_conditions as EC
 
-'''
-*************************************************************************** DISCLAIMER ****************************************************************************
-
-CODE IS STILL BEING WORKED ON, ISN'T READY FOR FINAL DISTRIBUTION AND THEREFORE ISN'T OPTIMIZED, ALSO FULL OF SCRAPPED CODE
-
-You can test the send_dm, auto_reply and cycle_stories functions, any feedback is appreciated.
-
-'''
 
 class Botstagram:
     '''Set driverpath to geckodriver file path to be able to use Firefox'''
