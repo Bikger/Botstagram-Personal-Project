@@ -21,7 +21,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 class Botstagram:
-    '''Set driverpath to geckodriver file path to be able to use Firefox'''
+    '''Set driverpath to Chromedriver executable path to be able to use Chrome'''
 
     def __init__(self, driverpath):
         self.driver = webdriver.Chrome(executable_path=driverpath)
