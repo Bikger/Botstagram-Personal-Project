@@ -1,11 +1,3 @@
-'''
-*************************************************************************** DISCLAIMER ****************************************************************************
-
-CODE IS STILL BEING WORKED ON, ISN'T READY FOR DISTRIBUTION/USE AND THEREFORE ISN'T OPTIMIZED
-
-You can test the send_dm, auto_reply and cycle_stories functions, any feedback is appreciated.
-
-'''
 import datetime
 import os
 import apscheduler
